@@ -1,6 +1,5 @@
 ---
 layout: default
-title: {{ site.data.tool_name.jekyll_name }}
 ---
 
 
@@ -12,3 +11,9 @@ title: {{ site.data.tool_name.jekyll_name }}
 - {{ site.data.tool_description.jekyll_description }}
 
 # Purpose
+
+# Reference
+- https://jekyllrb.com/docs/liquid/filters/
+
+# Contributors
+- Amar
