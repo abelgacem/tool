@@ -1,3 +1,4 @@
 git_description:    "An SCM (**S**ource **Code** **M**anagement)."
-jekyll_description: "A static website generator."
-hugo_description:   "A static website generator."
+jekyll_description: "A framework to create static website."
+hugo_description:   "A framework to create static website."
+docusaurus_description: "A framework to create static website."
