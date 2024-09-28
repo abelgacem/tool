@@ -27,6 +27,7 @@ gem install jekyll bundler
 # Create a site
 ```shell
 lJEKYLL_SITE="${HOME}/wkspc/jekyll/site00"
+lJEKYLL_SITE="/tmp/site00"
 mkdir -p $(dirname ${lJEKYLL_SITE})
 jekyll new ${lJEKYLL_SITE} 
 ``` 
@@ -43,3 +44,9 @@ cd ${lJEKYLL_SITE}
 bundle exec jekyll serve --livereload
 ``` 
 
+# Get server status
+```shell
+[ -n "$(ps -ef | grep jekyll | grep serve | awk '{print $2}')" ] && echo "Server running" || echo "No server running"
+
+
+``` 
