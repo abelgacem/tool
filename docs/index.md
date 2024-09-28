@@ -20,6 +20,7 @@ Documents some IT tools.
 
 |code name|Description|
 |-|-|
+|[`Do`][tool_git]|{{ site.data.tool_description.do_description }}|
 |[`Git`][tool_git]|{{ site.data.tool_description.git_description }}|
 |[`Hugo`][tool_hugo]|{{ site.data.tool_description.hugo_description }}|
 |[`Jekyll`][tool_jekyll]|{{ site.data.tool_description.jekyll_description }}|

@@ -1,6 +1,5 @@
 ---
 layout: default
-title: {{ site.data.tool_name.hugo_name }}
 ---
 
 
@@ -12,3 +11,8 @@ title: {{ site.data.tool_name.hugo_name }}
 - {{ site.data.tool_description.hugo_description }}
 
 # Purpose
+
+# Reference
+
+# Contributors
+- Amar
