@@ -41,12 +41,19 @@ bundle exec jekyll build
 # Build (if needed) and publish a site
 ```shell
 cd ${lJEKYLL_SITE}
-bundle exec jekyll serve --livereload
+bundle exec jekyll serve --livereload --incremental
 ``` 
+meaning:
+- `--livereload`:  a changes trigger a build and a publish
+- `--incremental`: build is incremental
+
 
 # Get server status
 ```shell
 [ -n "$(ps -ef | grep jekyll | grep serve | awk '{print $2}')" ] && echo "Server running" || echo "No server running"
+``` 
 
-
+# Browse the site
+```shell
+localhost:4000
 ``` 
