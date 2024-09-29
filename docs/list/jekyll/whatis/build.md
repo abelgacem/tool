@@ -9,9 +9,6 @@ layout: default
 # [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}`
 
 # definition
-- A file written in `md` which content will contribute to 1 `html` page
-
-# Type
-- [Not]Draft
-
+- The action creating the output artifact
+- trigger the creation of folder `_site`
 

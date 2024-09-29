@@ -8,10 +8,10 @@ layout: default
 
 # [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}`
 
-# definition
-- A file written in `md` which content will contribute to 1 `html` page
-
+# var
 # Type
-- [Not]Draft
+- Sdef, Udef
 
+# Var sdef
+- frontmatter accesssiblke within a page
 

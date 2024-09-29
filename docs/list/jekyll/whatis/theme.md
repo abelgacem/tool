@@ -10,6 +10,14 @@ layout: default
 # definition
 - can have skin
 
+# member
+- layout
+
+# operation
+- create 
+- declare
+- define
+- download
 
 # reference
 - 

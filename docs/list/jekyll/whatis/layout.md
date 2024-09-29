@@ -9,9 +9,7 @@ layout: default
 # [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}`
 
 # definition
-- A file written in `md` which content will contribute to 1 `html` page
+- set of object.
 
-# Type
-- [Not]Draft
-
-
+# Member
+- 
