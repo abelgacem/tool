@@ -19,3 +19,8 @@ collections:
     output: true
     permalink: /:collection/:name
 ```
+```yaml
+# in _config.yml
+collections:
+  - staff_members
+```

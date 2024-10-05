@@ -4,6 +4,7 @@ mx:
   lp:
   ref:
     - howto/tag
+    - def/category
 ---
 
 

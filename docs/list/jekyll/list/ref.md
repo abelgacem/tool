@@ -16,3 +16,5 @@ mx:
 |page|tag|[editor](https://jekyllrb.com/docs/pages/)|
 |post|tag|[editor](https://jekyllrb.com/docs/posts/)|
 |frontmatter|tag|[editor](https://jekyllrb.com/docs/front-matter/)|
+|category|tag|[editor](https://jekyllrb.com/docs/posts/#tags-and-categories)|
+|tag|tag|[editor](https://jekyllrb.com/docs/posts/#tags-and-categories)|

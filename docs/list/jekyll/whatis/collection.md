@@ -12,3 +12,6 @@ mx:
 # [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll }}` > post
 
 # definition
+- group related content
+- A {{site.data.site_name.yaml}} var
+- define in file `_config.yml`
