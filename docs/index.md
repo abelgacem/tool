@@ -13,7 +13,7 @@ title: Tools
 # Introduction
 This documentation is built and deployed from a [GitHub repository][repo_source].
 
-# Purpose
+# {{ site.data.site_name.purpose }}
 Documents some IT tools.
 
 # list

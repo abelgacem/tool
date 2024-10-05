@@ -15,3 +15,4 @@ mx:
 |permalink|tag|[editor](https://jekyllrb.com/docs/permalinks/)|
 |page|tag|[editor](https://jekyllrb.com/docs/pages/)|
 |post|tag|[editor](https://jekyllrb.com/docs/posts/)|
+|frontmatter|tag|[editor](https://jekyllrb.com/docs/front-matter/)|

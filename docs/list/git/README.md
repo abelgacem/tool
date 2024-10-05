@@ -7,10 +7,10 @@ layout: default
 [homepage]:   {{ "/index" | absolute_url }}
 
 # [&larr;][homepage] Tool > {{ site.data.tool_name.git_name }}
-# Decscription
+# {{ site.data.site_name.description }}
 - {{ site.data.tool_description.git_description }}
 
-# Purpose
+# {{ site.data.site_name.purpose }}
 
 # Reference
 

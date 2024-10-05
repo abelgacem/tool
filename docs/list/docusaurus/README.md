@@ -7,10 +7,10 @@ layout: default
 [homepage]:   {{ "/index" | absolute_url }}
 
 # [&larr;][homepage] Tool > {{ site.data.tool_name.docusaurus_name }}
-# Decscription
+# {{ site.data.site_name.description }}
 - {{ site.data.tool_description.docusaurus_description }}
 
-# Purpose
+# {{ site.data.site_name.purpose }}
 
 # Reference
 

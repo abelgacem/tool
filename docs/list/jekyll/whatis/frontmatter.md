@@ -1,5 +1,9 @@
 ---
 layout: default
+mx:
+  lp:
+  ref:
+    - def/content
 ---
 
 
@@ -9,8 +13,9 @@ layout: default
 # [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}`
 
 # definition
-- set of a kvpair.
-- Used at Build time by jekyll itself.
+- set of a kvpair or variable.
+- define in the begining of a content.
+- Used at build time by jekyll.
 - Can be used by a markdown's code to control the final output.
 
 # type
@@ -27,9 +32,11 @@ permalink: '/:category'
 # Example of frontmatter@udef
 ```shell
 mx: 
-  title:  'about'
-  categorizations: 'cat01 cat02'
-  permalink: '/:category'
+  lp:
+  ref:
+  var:
+    title:  'about'
+    tag: 'cat01 cat02'
 ```
 
 # list

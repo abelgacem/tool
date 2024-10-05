@@ -7,11 +7,11 @@ layout: default
 [homepage]:   {{ "/index" | absolute_url }}
 
 # [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}`
-# Decscription
+# {{ site.data.site_name.description }}
 - {{ site.data.tool_description.jekyll_description }}
 - Written in Ruby
 
-# Purpose
+# {{ site.data.site_name.purpose }}
 
 # Reference
 - https://jekyllrb.com/docs/liquid/filters/
