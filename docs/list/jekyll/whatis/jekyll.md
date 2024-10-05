@@ -6,11 +6,13 @@ layout: default
 [//]: #(Reference)
 [homepage]:   {{ "/index" | absolute_url }}
 
-# [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}`
+# [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll }}`
 
 # Definition
+- {{ site.data.tool_description.jekyll }}
 - A framework.
 - A static web site generator.
+- 
 - written in ruby.
 - A DSL.
 

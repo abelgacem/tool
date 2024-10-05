@@ -1,0 +1,17 @@
+---
+layout: default
+mx: 
+  lp:
+  ref:
+---
+
+
+[//]: #(Reference)
+[homepage]:   {{ "/index" | absolute_url }}
+
+# list
+|name|tag|link|
+|-|-|-|
+|permalink|tag|[editor](https://jekyllrb.com/docs/permalinks/)|
+|page|tag|[editor](https://jekyllrb.com/docs/pages/)|
+|post|tag|[editor](https://jekyllrb.com/docs/posts/)|

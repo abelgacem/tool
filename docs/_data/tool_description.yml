@@ -1,5 +1,5 @@
 do_description:     "A to to test the rendering of the name."
 git_description:    "An SCM (**S**ource **Code** **M**anagement)."
-jekyll_description: "A framework to create static website."
+jekyll: "A framework to create static website."
 hugo_description:   "A framework to create static website."
 docusaurus_description: "A framework to create static website."
