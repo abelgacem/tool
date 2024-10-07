@@ -16,3 +16,7 @@ mx:
   - front mater
   - variables
 - 
+
+# ref
+- https://jekyllrb.com/docs/configuration/
+- https://jekyllrb.com/docs/configuration/front-matter-defaults/

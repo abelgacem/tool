@@ -13,15 +13,15 @@ mx:
 # [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}`
 
 # definition
-- set of a kvpair or variable.
-- define in the begining of a content.
+- Set of {{site.data.name.kvpair}} in {{site.data.name.yaml}} format (ie. variable)
+- Define in the begining of a content.
 - Used at build time by jekyll.
-- Can be used by a markdown's code to control the final output.
+- Can be used by a {{site.data.name.liquid}} expression to control the render.
 
 # type
-- Sdef, Udef
+- {{site.data.name.sdef}}, {{site.data.name.udef }}
 
-# Example of frontmatter@sdef
+# Example of `frontmatter@sdef` 
 ```shell
 layout: 'page'
 title:  'about'
@@ -29,7 +29,7 @@ categorizations: 'cat01 cat02'
 permalink: '/:category'
 ```
 
-# Example of frontmatter@udef
+# Example of `frontmatter@udef`
 ```shell
 mx: 
   lp:
@@ -46,3 +46,9 @@ mx:
 |title||a browser's tab name.|
 |permalink|parameterized|a page's URL.|
 |catagories|seq. of string|
+
+# Ref
+- https://jekyllrb.com/docs/configuration/front-matter-defaults/
+- https://jekyllrb.com/docs/static-files/
+- https://jekyllrb.com/docs/front-matter/
+- 

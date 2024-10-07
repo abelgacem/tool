@@ -32,3 +32,20 @@ defaults:
       layout: "project"
 ```
 
+```yaml
+# apply only to content type "page"
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "my-site"
+  -
+    scope:
+      path: "projects"
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "project" # overrides previous default layout
+      author: "Mr. Hyde"
+```

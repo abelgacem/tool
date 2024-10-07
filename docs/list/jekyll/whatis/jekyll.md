@@ -18,14 +18,20 @@ layout: default
 # The Process
 - Create an empty `jekyll` project.
   - This generate a basic directory structure.
-- Make changes inside this folder by upfating `Jekyll` objects and custom contents like:
+
+- Make changes inside this folder:
   - layout
   - content  
+  - ...
+
 - Build the project. This consist of the following tasks
   - set up plugins
   - read src file.
   - run generators.
-  - render template.
+  - render template:
+    - evaluate {{site.data.name.liquid}} expression
+    - convert {{site.data.name.markdown}} to {{site.data.name.html}}
+    - populatethe layout like Russian dolls
   - write file to disk (ie.output the artifact : a folder named `_site`)
 - Deploy the artifact and browse the site:
   - In a local environment while coding.

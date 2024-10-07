@@ -10,10 +10,10 @@ title: Tools
 [tool_jekyll]: ./list/jekyll/README
 
 
-# {{ site.data.site_name.introduction }}
+# {{ site.data.name.introduction }}
 This documentation is built and deployed from a [GitHub repository][repo_source].
 
-# {{ site.data.site_name.purpose }}
+# {{ site.data.name.purpose }}
 Documents some IT tools.
 
 # list
