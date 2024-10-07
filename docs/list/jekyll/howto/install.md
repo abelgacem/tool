@@ -8,61 +8,68 @@ layout: default
 
 # [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}` > Howto
 
-# Install on ubuntu
-- install os dependency
+
+
+
+
+
+# install os dependencies
 ```shell
-sudo apt-get -y install ruby-full build-essential zlib1g-dev
-```
-- export envvar
-```shell
-# define var
-export GEM_HOME="${HOME}/wkspc/gems"
-export PATH="${GEM_HOME}/bin:$PATH"
+# on ubuntu
+sudo apt-get install -y ruby-full build-essential zlib1g-dev
 ```
 
-- install tool
+# create and define udef rc file 
 ```shell
-# define var
+# var
+lFILE_PATH_RC_SDEF="${HOME}/.bashrc"
+lFILE_PATH_RC_UDEF="${HOME}/.profile.custom"
+
+# action
+touch ${lFILE_PATH_RC_UDEF}
+echo "# define a udef rcfile"       >> ${lFILE_PATH_RC_SDEF}
+echo "source ${lFILE_PATH_RC_UDEF}" >> ${lFILE_PATH_RC_SDEF}
+```
+
+# define udef rc file content
+```shell
+# var
+lFOLDER_GEM_UDEF="${HOME}/wkspc/tool/gems"
+
+# action
+mkdir -p ${lFOLDER_GEM_UDEF}
+echo "# Install Ruby Gems in a udef folder (ie. ${lFOLDER_GEM_UDEF})" >> ${lFILE_PATH_RC_UDEF}
+echo "export GEM_HOME=${lFOLDER_GEM_UDEF}"      >> ${lFILE_PATH_RC_UDEF}
+echo "export PATH=${lFOLDER_GEM_UDEF}/bin:${PATH}" >> ${lFILE_PATH_RC_UDEF}
+```
+
+# install jekyll and dependencies
+```shell
 gem install jekyll bundler
 ```
+
 # Check install
 ```shell
-# define var
 ruby -v
 gem -v
 bundle -v
 ```
 
-# Create a site
-```shell
-lJEKYLL_SITE="${HOME}/wkspc/jekyll/site00"
-lJEKYLL_SITE="/tmp/site00"
-mkdir -p $(dirname ${lJEKYLL_SITE})
-jekyll new ${lJEKYLL_SITE} 
-``` 
+# Todo
 
-# Build a site
+### create a local group folder for git and then for Jekyll
 ```shell
-cd ${lJEKYLL_SITE}
-bundle exec jekyll build
-``` 
+lFOLDER_GIT_ROOT="${HOME}/wkspc/git"
+lFOLDER_GIT_ROOT_JEKYLL="${lFOLDER_GIT_ROOT}/jekyll"
+mkdir -p ${lFOLDER_GIT_ROOT_JEKYLL}
+```
 
-# Build (if needed) and publish a site
+### clone a  jekyll project
 ```shell
-cd ${lJEKYLL_SITE}
-bundle exec jekyll serve --livereload --incremental
-``` 
-meaning:
-- `--livereload`:  a changes trigger a build and a publish
-- `--incremental`: build is incremental
+lPRJ_GIT_JEKYLL="https://github.com/abelgacem/project.git"
+git clone ${lPRJ_GIT_JEKYLL}
+```
 
 
-# Get server status
-```shell
-[ -n "$(ps -ef | grep jekyll | grep serve | awk '{print $2}')" ] && echo "Server running" || echo "No server running"
-``` 
 
-# Browse the site
-```shell
-localhost:4000
-``` 
+

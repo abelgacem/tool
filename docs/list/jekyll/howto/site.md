@@ -32,7 +32,7 @@ meaning:
 - `--incremental`: build is incremental
 
 
-# Browse the site
+# Browse a site
 ```shell
 localhost:4000
 ``` 
