@@ -12,19 +12,22 @@ layout: default
 - {{ site.data.tool_description.jekyll }}
 - A framework.
 - A static web site generator.
-- 
 - written in ruby.
-- A DSL.
+- Uses `Liquid` as templating language.
 
 # The Process
 - Create an empty `jekyll` project.
   - This generate a basic directory structure.
-- Make changes to this basic site by defining `Jekyll` objects and custom contents:
+- Make changes inside this folder by upfating `Jekyll` objects and custom contents like:
   - layout
-  - page  
-  - fontmatter
-- Build the project.
-  - This will output an artifact : a folder named `_site`
+  - content  
+- Build the project. This consist of the following tasks
+  - set up plugins
+  - read src file.
+  - run generators.
+  - render template.
+  - write file to disk (ie.output the artifact : a folder named `_site`)
 - Deploy the artifact and browse the site:
-  - Locally while developing.
-  - In test or any other envs (aka. production).
+  - In a local environment while coding.
+  - In any shared other environment (eg. dev, test, pprod, prod) for testing.
+
