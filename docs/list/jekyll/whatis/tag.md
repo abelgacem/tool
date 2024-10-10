@@ -7,11 +7,6 @@ mx:
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
-# [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}` > `tag`
-
 # definition
 - are defined in the front matter
 - exists for any content types: `page`, `post`, `collection`
@@ -25,7 +20,7 @@ tags: classic hollywood
 ```  
 
 # To know
-- All tags registered in the current site are exposed to Liquid templates via `site.tags`.
-- Iterating over `{{site.tags}`} on a page will yield another array with two items
+- All tags registered in the current site are exposed to Liquid templates via site.tags.
+- Iterating over the var site.tags on a page will yield another array with two items
   - first item is the name of the tag
   - second item is an array of posts with that tag.
