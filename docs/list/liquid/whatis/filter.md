@@ -2,13 +2,8 @@
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
-# [&larr;][homepage] Tool > {{ site.data.tool_name.liquid }}
 
 # {{ site.data.name.description }}
-- {{ site.data.tool_description.liquid }}
 - extends a basic language with feature of a programing language
 - Created by Shopify
 - Written in Ruby

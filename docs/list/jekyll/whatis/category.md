@@ -7,10 +7,6 @@ mx:
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
-# [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}` > `category`
 
 # definition
 - are defined in the front matter

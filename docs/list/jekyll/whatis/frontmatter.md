@@ -6,10 +6,6 @@ mx:
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
-# [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}`
 
 # definition
 - Set of {{site.data.name.kvpair}} in {{site.data.name.yaml}} format (ie. variable)

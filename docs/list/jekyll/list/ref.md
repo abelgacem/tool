@@ -5,9 +5,6 @@ mx:
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
 # list
 |name|tag|link|
 |-|-|-|

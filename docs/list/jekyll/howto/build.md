@@ -2,8 +2,6 @@
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
 
 # build the artifact
 ```shell

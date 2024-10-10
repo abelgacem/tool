@@ -2,9 +2,6 @@
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
 # Control statement
 
 ## `if`

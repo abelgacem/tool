@@ -2,10 +2,6 @@
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
-# [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll }}`
 
 # Definition
 - {{ site.data.tool_description.jekyll }}

@@ -5,10 +5,6 @@ mx:
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
-# [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll }}` > post
 
 # definition
 - 1 folder named `_drafts`

@@ -9,7 +9,6 @@
 [howto_git]:            ../howto/git.md
 [homepage]:   {{ site.baseurl }}/
 
-# [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}` > Tutorial
 
 # Quick startup
 

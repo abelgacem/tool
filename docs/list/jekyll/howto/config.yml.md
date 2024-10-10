@@ -5,10 +5,6 @@ mx:
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
-
-# [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll }}` > _config.yml
 
 # define a layout for content type
 ```yaml
