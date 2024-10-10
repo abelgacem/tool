@@ -1,6 +1,0 @@
-do_description:     "A to to test the rendering of the name."
-docusaurus_description: "A framework to create static website."
-git_description:    "An SCM (**S**ource **Code** **M**anagement)."
-hugo_description:   "A framework to create static website."
-jekyll: "A framework to create static website."
-liquid: "A templating language."
