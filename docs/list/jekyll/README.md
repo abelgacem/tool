@@ -1,13 +1,12 @@
 ---
+mx:
+  domain: tool
+  description: A framework to create static website.
 ---
 
 
-[//]: #(Reference)
-[homepage]:   {{ site.baseurl }}/
 
-# [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}`
 # {{ site.data.name.description }}
-- {{ site.data.tool_description.jekyll_description }}
 - Written in Ruby
 
 # {{ site.data.name.purpose }}
