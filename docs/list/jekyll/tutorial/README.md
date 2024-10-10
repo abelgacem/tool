@@ -1,5 +1,4 @@
 ---
-layout: default
 ---
 
 
@@ -8,7 +7,7 @@ layout: default
 [howto_site_create]:    ../howto/site#create-a-site
 [howto_install_ubuntu]: ../howto/install.md
 [howto_git]:            ../howto/git.md
-[homepage]:   {{ "/index" | absolute_url }}
+[homepage]:   {{ site.baseurl }}/
 
 # [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}` > Tutorial
 

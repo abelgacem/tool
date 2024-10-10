@@ -1,5 +1,4 @@
 ---
-layout: default
 mx:
   lp:
   ref:
@@ -8,7 +7,7 @@ mx:
 
 
 [//]: #(Reference)
-[homepage]:   {{ "/index" | absolute_url }}
+[homepage]:   {{ site.baseurl }}/
 
 # [&larr;][homepage] Tool > `{{ site.data.tool_name.jekyll_name }}`
 

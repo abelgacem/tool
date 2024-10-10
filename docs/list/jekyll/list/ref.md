@@ -1,5 +1,4 @@
 ---
-layout: default
 mx: 
   lp:
   ref:
@@ -7,7 +6,7 @@ mx:
 
 
 [//]: #(Reference)
-[homepage]:   {{ "/index" | absolute_url }}
+[homepage]:   {{ site.baseurl }}/
 
 # list
 |name|tag|link|

@@ -1,5 +1,4 @@
 ---
-layout: default
 mx:
   lp:
   ref:
